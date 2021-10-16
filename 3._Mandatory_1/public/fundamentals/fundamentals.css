@@ -1,0 +1,57 @@
+.fundamentalsContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.infomationContainerFundamentals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.titleContainer {
+    border: #8EB7C5 4px solid;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    background-color: white;
+    align-items: center;
+}
+
+.informationContainerLink {
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    margin: 2px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.smallerTitle {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.image {
+    width: 25em;
+    padding: 1px;
+}
+
+
+.notes {
+    font-size: 16px;
+    margin-top: 2px;
+}
+
+.varNotes {
+    font-size: 16px;
+    margin-top: 2px;
+    text-align: center;
+}
